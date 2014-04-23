@@ -1,0 +1,26 @@
+run.analysis.R   README 
+========================================================
+
+Author: JS Johnson
+Date: April 2014
+
+Description:
+This program reads in various files (listed below) and combines them to form an output file with the mean values for 81 measured feature mean and standard deviations by activity performed and subject. 
+
+The "run.analysis" r-code has the following input file dependencies:
+
+Input Files: 
+  - "features.txt"
+  - "activity_labels.txt"
+  - "X_train.txt"
+  - "y_train.txt"
+  - "X_test.txt"
+  - "y_test.txt"
+  - "subject_train.txt"
+  
+The web location for a compressed archive of these files is 
+  https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+  
+The program produces one output file named "SamsungMeans.txt" in the working directory.
+
+.....End of file......
